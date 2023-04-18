@@ -31,7 +31,7 @@ body{
     background-color: var(--color);
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 53%;
     transform: translate(-50%, -50%);
     align-items: center;
     box-shadow: 4px 0px 12px 0px #ff9f43;
@@ -64,4 +64,15 @@ body{
 }
 .pgho img{
     width: 200px;
+}
+@media screen and (max-width:600px){
+    .homelog img{
+        width: 160px;
+    }
+}
+@media screen and (max-width:450px){
+    .homelog img{
+        width: 100px;
+        height: 50%;
+    }
 }
