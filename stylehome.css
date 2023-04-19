@@ -1,10 +1,8 @@
 :root{
-    --baccolor:#222f3e;
-    --color:#ff9f43;
+    --baccolor:beige;
+    --color: #0d6efd82;
 }
-body{
-    background-color: var(--baccolor);
-}
+
 .marg-top{
     margin-top: 7px;
 }
@@ -13,10 +11,17 @@ body{
     border-radius: 4px;
 }
 nav{
-    background-color: var(--color);
+    background-color: black;
+    color: white;
+}
+.nav-link, .navbar-brand{
+    color: white;
+}
+.navbar-toggler{
+    background-color: white;
 }
 .h3kh{
-    color: var(--color);
+    color:var(--color);
     border-bottom: 3px solid;
     border-color: var(--color);
     width: fit-content;
@@ -24,7 +29,14 @@ nav{
 }
 .morap{
     background-color: var(--color);
-    box-shadow: 1px 0px 13px 2px #ff9f43;
+    box-shadow:4px 0px 12px 0px #0d6efd73;
+}
+#main_heart {
+    width: 150px;
+    fill: #ffffff1a;
+}
+.takal{
+    text-align: center;
 }
 .mor1 div, .mor2 div{
     width: 200px;
@@ -34,7 +46,7 @@ nav{
     margin: 5px;
     text-align: center;
     border-radius: 4px;
-    box-shadow: 2px 0px 4px #222f3e;
+    box-shadow:4px 0px 12px 0px #0d6efd73;
 }
 .hagz{
     color: var(--color);
@@ -45,10 +57,56 @@ ul{
     color: var(--color);
 }
 footer{
-    background-color: var(--color);
-    color: var(--baccolor);
-
+    background-color: black;
+    color: white;
 }
 footer ul, h3{
-    color: var(--baccolor);
+    color: white;
+}
+.heart_cls-1{
+    border-radius: 10%;
+    stroke-width: 1px;
+    stroke: #e74c3c;
+    
+    animation: 2.5s er linear infinite;
+}
+.heart-circles{
+    fill: #111827;
+}
+@keyframes er{
+5% {
+    stroke-width: 1px;
+    stroke-dasharray: 1073.0218200683594;
+    stroke-dashoffset:873.0218200683594;
+}
+
+45% {
+    stroke-width:1px;
+    stroke-dasharray: 873.0218200683594;
+    stroke-dashoffset:473.0218200683594;
+}
+55% {
+    stroke-width: 1px;
+    stroke-dasharray: 703.0218200683594;
+    stroke-dashoffset:573.0218200683594;
+}
+75%{
+    
+        stroke-width: 1px;
+        stroke-dasharray: 1073.0218200683594;
+        stroke-dashoffset:873.0218200683594;
+
+}
+75% {
+    stroke-width: 1px;
+    stroke-dasharray: 573.0218200683594;
+    stroke-dashoffset:873.0218200683594;
+}
+100%{
+    
+    stroke-width: 1px;
+    stroke-dasharray: 1073.0218200683594;
+    stroke-dashoffset:873.0218200683594;
+
+}
 }
